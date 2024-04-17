@@ -1,0 +1,515 @@
+[2024-04-17 12:49:48] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-04-17 12:49:48] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, transfer_files_locally, wrapup
+[2024-04-17 12:49:48] [class-ss-archive-creation-job.php:98] Pushing first task to queue: setup
+[2024-04-17 12:49:50] [class-ss-archive-creation-job.php:132] Current task: setup
+[2024-04-17 12:49:50] [class-ss-archive-creation-job.php:149] Performing task: setup
+[2024-04-17 12:49:50] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-04-17 12:49:50] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188\
+[2024-04-17 12:49:50] [class-ss-setup-task.php:79] Adding origin URL to queue: http://localhost/salammassonryWP1/
+[2024-04-17 12:49:50] [class-ss-setup-task.php:137] File C:\xampp\htdocs\salammassonryWP1\wp-content\plugins\simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js exists; adding to queue as: C:/xampp/htdocs/salammassonryWP1/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-04-17 12:49:50] [class-ss-archive-creation-job.php:171] We've found our next task: fetch_urls
+[2024-04-17 12:49:50] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-04-17 12:49:50] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-04-17 12:49:50] [class-ss-fetch-urls-task.php:55] Total pages: 2; Pages remaining: 2
+[2024-04-17 12:49:50] [class-ss-fetch-urls-task.php:58] URL: http://localhost/salammassonryWP1/
+[2024-04-17 12:49:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 2
+[2024-04-17 12:49:50] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-17 12:49:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/661fc56eec5ee-lKGv0S.tmp
+[2024-04-17 12:49:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/salammassonryWP1/?simply_static_page=1
+[2024-04-17 12:49:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/salammassonryWP1/?simply_static_page=1
+[2024-04-17 12:49:53] [class-ss-url-fetcher.php:103] Filesize: 85139 bytes
+[2024-04-17 12:49:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-17 12:49:53] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-04-17 12:49:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/661fc56eec5ee-lKGv0S.tmp to C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188/index.html
+[2024-04-17 12:49:53] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-17 12:49:55] [class-ss-fetch-urls-task.php:144] Adding 20 URLs to the queue
+[2024-04-17 12:49:55] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-17 12:49:57] [class-ss-fetch-urls-task.php:58] URL: C:/xampp/htdocs/salammassonryWP1/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-04-17 12:49:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 2
+[2024-04-17 12:49:57] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-17 12:49:57] [class-ss-url-fetcher.php:83] Not fetching URL because it is not a local URL
+[2024-04-17 12:49:57] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 2 pages/files
+[2024-04-17 12:49:57] [class-ss-archive-creation-job.php:177] We're not done with the fetch_urls task yet
+[2024-04-17 12:49:57] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-04-17 12:49:57] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-04-17 12:49:57] [class-ss-fetch-urls-task.php:55] Total pages: 22; Pages remaining: 20
+[2024-04-17 12:49:57] [class-ss-fetch-urls-task.php:58] URL: http://localhost/salammassonryWP1
+[2024-04-17 12:49:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 22
+[2024-04-17 12:49:57] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-17 12:49:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/661fc57522d46-QqQoQK.tmp
+[2024-04-17 12:49:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/salammassonryWP1?simply_static_page=3
+[2024-04-17 12:49:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/salammassonryWP1?simply_static_page=3
+[2024-04-17 12:49:57] [class-ss-url-fetcher.php:103] Filesize: 362 bytes
+[2024-04-17 12:49:57] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-04-17 12:49:57] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-17 12:49:57] [class-ss-fetch-urls-task.php:190] redirect_url: http://localhost/salammassonryWP1/
+[2024-04-17 12:49:57] [class-ss-fetch-urls-task.php:199] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-04-17 12:49:57] [class-ss-fetch-urls-task.php:58] URL: http://localhost/salammassonryWP1/index.php/sample-page/
+[2024-04-17 12:49:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 22
+[2024-04-17 12:49:57] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-17 12:49:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/661fc57530e2a-L3AmCo.tmp
+[2024-04-17 12:49:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/salammassonryWP1/index.php/sample-page/?simply_static_page=4
+[2024-04-17 12:49:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/salammassonryWP1/index.php/sample-page/?simply_static_page=4
+[2024-04-17 12:49:58] [class-ss-url-fetcher.php:103] Filesize: 60319 bytes
+[2024-04-17 12:49:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-17 12:49:58] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/sample-page/index.html
+[2024-04-17 12:49:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/661fc57530e2a-L3AmCo.tmp to C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188/index.php/sample-page/index.html
+[2024-04-17 12:49:58] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-17 12:50:01] [class-ss-fetch-urls-task.php:144] Adding 18 URLs to the queue
+[2024-04-17 12:50:01] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-17 12:50:02] [class-ss-fetch-urls-task.php:58] URL: http://localhost/salammassonryWP1/index.php/2024/04/17/hello-world/
+[2024-04-17 12:50:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 22
+[2024-04-17 12:50:02] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-17 12:50:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/661fc57a4d4d3-V9bLHP.tmp
+[2024-04-17 12:50:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/salammassonryWP1/index.php/2024/04/17/hello-world/?simply_static_page=5
+[2024-04-17 12:50:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/salammassonryWP1/index.php/2024/04/17/hello-world/?simply_static_page=5
+[2024-04-17 12:50:03] [class-ss-url-fetcher.php:103] Filesize: 77704 bytes
+[2024-04-17 12:50:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-17 12:50:03] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/2024/04/17/hello-world/index.html
+[2024-04-17 12:50:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/661fc57a4d4d3-V9bLHP.tmp to C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188/index.php/2024/04/17/hello-world/index.html
+[2024-04-17 12:50:03] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-17 12:50:05] [class-ss-fetch-urls-task.php:144] Adding 22 URLs to the queue
+[2024-04-17 12:50:05] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-17 12:50:06] [class-ss-fetch-urls-task.php:58] URL: http://localhost/salammassonryWP1/index.php/author/salammassonrywp1/
+[2024-04-17 12:50:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 22
+[2024-04-17 12:50:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-17 12:50:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/661fc57e1174c-hK522v.tmp
+[2024-04-17 12:50:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/salammassonryWP1/index.php/author/salammassonrywp1/?simply_static_page=6
+[2024-04-17 12:50:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/salammassonryWP1/index.php/author/salammassonrywp1/?simply_static_page=6
+[2024-04-17 12:50:07] [class-ss-url-fetcher.php:103] Filesize: 64451 bytes
+[2024-04-17 12:50:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-17 12:50:07] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/author/salammassonrywp1/index.html
+[2024-04-17 12:50:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/661fc57e1174c-hK522v.tmp to C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188/index.php/author/salammassonrywp1/index.html
+[2024-04-17 12:50:07] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-17 12:50:09] [class-ss-fetch-urls-task.php:144] Adding 18 URLs to the queue
+[2024-04-17 12:50:09] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-17 12:50:10] [class-ss-fetch-urls-task.php:58] URL: http://localhost/salammassonryWP1/index.php/category/uncategorized/
+[2024-04-17 12:50:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 22
+[2024-04-17 12:50:10] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-17 12:50:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/661fc58279f64-89XHDq.tmp
+[2024-04-17 12:50:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/salammassonryWP1/index.php/category/uncategorized/?simply_static_page=7
+[2024-04-17 12:50:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/salammassonryWP1/index.php/category/uncategorized/?simply_static_page=7
+[2024-04-17 12:50:11] [class-ss-url-fetcher.php:103] Filesize: 57175 bytes
+[2024-04-17 12:50:11] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-04-17 12:50:11] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-17 12:50:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/661fc583b5c9b-AmSFt4.tmp
+[2024-04-17 12:50:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/salammassonryWP1/index.php/category/uncategorized/
+[2024-04-17 12:50:12] [class-ss-url-fetcher.php:103] Filesize: 57175 bytes
+[2024-04-17 12:50:12] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-04-17 12:50:12] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-17 12:50:12] [class-ss-fetch-urls-task.php:58] URL: http://localhost/salammassonryWP1/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-04-17 12:50:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 22
+[2024-04-17 12:50:12] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-17 12:50:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/661fc584ab22e-5qvVFu.tmp
+[2024-04-17 12:50:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/salammassonryWP1/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=8
+[2024-04-17 12:50:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/salammassonryWP1/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=8
+[2024-04-17 12:50:12] [class-ss-url-fetcher.php:103] Filesize: 199724 bytes
+[2024-04-17 12:50:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-04-17 12:50:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-04-17 12:50:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/661fc584ab22e-5qvVFu.tmp to C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-04-17 12:50:12] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-17 12:50:12] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-17 12:50:12] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-17 12:50:12] [class-ss-fetch-urls-task.php:58] URL: http://localhost/salammassonryWP1/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-04-17 12:50:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 22
+[2024-04-17 12:50:12] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-17 12:50:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/661fc584c0346-Y56gYI.tmp
+[2024-04-17 12:50:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/salammassonryWP1/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=9
+[2024-04-17 12:50:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/salammassonryWP1/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=9
+[2024-04-17 12:50:12] [class-ss-url-fetcher.php:103] Filesize: 66482 bytes
+[2024-04-17 12:50:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-04-17 12:50:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-04-17 12:50:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/661fc584c0346-Y56gYI.tmp to C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-04-17 12:50:12] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-17 12:50:12] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-17 12:50:12] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-17 12:50:12] [class-ss-fetch-urls-task.php:58] URL: http://localhost/salammassonryWP1/wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-04-17 12:50:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 22
+[2024-04-17 12:50:12] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-17 12:50:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/661fc584d7173-udU3Xt.tmp
+[2024-04-17 12:50:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/salammassonryWP1/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=10
+[2024-04-17 12:50:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/salammassonryWP1/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=10
+[2024-04-17 12:50:12] [class-ss-url-fetcher.php:103] Filesize: 126244 bytes
+[2024-04-17 12:50:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-04-17 12:50:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-04-17 12:50:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/661fc584d7173-udU3Xt.tmp to C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188/wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-04-17 12:50:12] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-17 12:50:12] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-17 12:50:12] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-17 12:50:12] [class-ss-fetch-urls-task.php:58] URL: http://localhost/salammassonryWP1/index.php/feed/
+[2024-04-17 12:50:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 22
+[2024-04-17 12:50:12] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-17 12:50:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/661fc584e954b-VX60TE.tmp
+[2024-04-17 12:50:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/salammassonryWP1/index.php/feed/?simply_static_page=11
+[2024-04-17 12:50:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/salammassonryWP1/index.php/feed/?simply_static_page=11
+[2024-04-17 12:50:14] [class-ss-url-fetcher.php:103] Filesize: 1784 bytes
+[2024-04-17 12:50:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-04-17 12:50:14] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/feed/index.xml
+[2024-04-17 12:50:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/661fc584e954b-VX60TE.tmp to C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188/index.php/feed/index.xml
+[2024-04-17 12:50:14] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-17 12:50:14] [class-ss-fetch-urls-task.php:144] Adding 5 URLs to the queue
+[2024-04-17 12:50:14] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-17 12:50:15] [class-ss-fetch-urls-task.php:58] URL: http://localhost/salammassonryWP1/index.php/comments/feed/
+[2024-04-17 12:50:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 22
+[2024-04-17 12:50:15] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-17 12:50:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/661fc5871c9c8-X30nr3.tmp
+[2024-04-17 12:50:15] [class-ss-page-handler.php:38] URL Prepared:http://localhost/salammassonryWP1/index.php/comments/feed/?simply_static_page=12
+[2024-04-17 12:50:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/salammassonryWP1/index.php/comments/feed/?simply_static_page=12
+[2024-04-17 12:50:16] [class-ss-url-fetcher.php:103] Filesize: 1714 bytes
+[2024-04-17 12:50:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-04-17 12:50:16] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/comments/feed/index.xml
+[2024-04-17 12:50:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/661fc5871c9c8-X30nr3.tmp to C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188/index.php/comments/feed/index.xml
+[2024-04-17 12:50:16] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-17 12:50:16] [class-ss-fetch-urls-task.php:144] Adding 4 URLs to the queue
+[2024-04-17 12:50:16] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-17 12:50:16] [class-ss-fetch-urls-task.php:58] URL: http://localhost/salammassonryWP1/wp-includes/blocks/navigation/style.min.css
+[2024-04-17 12:50:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 22
+[2024-04-17 12:50:16] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-17 12:50:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/661fc58831291-Z6MPqZ.tmp
+[2024-04-17 12:50:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/salammassonryWP1/wp-includes/blocks/navigation/style.min.css?simply_static_page=13
+[2024-04-17 12:50:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/salammassonryWP1/wp-includes/blocks/navigation/style.min.css?simply_static_page=13
+[2024-04-17 12:50:16] [class-ss-url-fetcher.php:103] Filesize: 16484 bytes
+[2024-04-17 12:50:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-04-17 12:50:16] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
+[2024-04-17 12:50:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/661fc58831291-Z6MPqZ.tmp to C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188/wp-includes/blocks/navigation/style.min.css
+[2024-04-17 12:50:16] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-17 12:50:16] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-17 12:50:16] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-17 12:50:16] [class-ss-fetch-urls-task.php:58] URL: http://localhost/salammassonryWP1/wp-includes/blocks/image/style.min.css
+[2024-04-17 12:50:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 22
+[2024-04-17 12:50:16] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-17 12:50:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/661fc58849378-blevWo.tmp
+[2024-04-17 12:50:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/salammassonryWP1/wp-includes/blocks/image/style.min.css?simply_static_page=14
+[2024-04-17 12:50:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/salammassonryWP1/wp-includes/blocks/image/style.min.css?simply_static_page=14
+[2024-04-17 12:50:16] [class-ss-url-fetcher.php:103] Filesize: 7049 bytes
+[2024-04-17 12:50:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-04-17 12:50:16] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/image/style.min.css
+[2024-04-17 12:50:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/661fc58849378-blevWo.tmp to C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188/wp-includes/blocks/image/style.min.css
+[2024-04-17 12:50:16] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-17 12:50:16] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-17 12:50:16] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-17 12:50:16] [class-ss-fetch-urls-task.php:58] URL: http://localhost/salammassonryWP1/index.php/wp-json/
+[2024-04-17 12:50:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 22
+[2024-04-17 12:50:16] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-17 12:50:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/661fc5885edd3-9bMRs5.tmp
+[2024-04-17 12:50:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/salammassonryWP1/index.php/wp-json/?simply_static_page=15
+[2024-04-17 12:50:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/salammassonryWP1/index.php/wp-json/?simply_static_page=15
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:103] Filesize: 185631 bytes
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/wp-json/index.html
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/661fc5885edd3-9bMRs5.tmp to C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188/index.php/wp-json/index.html
+[2024-04-17 12:50:17] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-17 12:50:17] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-17 12:50:17] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-17 12:50:17] [class-ss-fetch-urls-task.php:58] URL: http://localhost/salammassonryWP1/xmlrpc.php
+[2024-04-17 12:50:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 22
+[2024-04-17 12:50:17] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://localhost/salammassonryWP1/xmlrpc.php
+[2024-04-17 12:50:17] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-17 12:50:17] [class-ss-fetch-urls-task.php:58] URL: http://localhost/salammassonryWP1/wp-includes/js/dist/interactivity.min.js
+[2024-04-17 12:50:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 22
+[2024-04-17 12:50:17] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/661fc5894cd7d-uDMTjV.tmp
+[2024-04-17 12:50:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/salammassonryWP1/wp-includes/js/dist/interactivity.min.js?simply_static_page=17
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/salammassonryWP1/wp-includes/js/dist/interactivity.min.js?simply_static_page=17
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:103] Filesize: 35049 bytes
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/interactivity.min.js
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/661fc5894cd7d-uDMTjV.tmp to C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188/wp-includes/js/dist/interactivity.min.js
+[2024-04-17 12:50:17] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-17 12:50:17] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-17 12:50:17] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-17 12:50:17] [class-ss-fetch-urls-task.php:58] URL: http://localhost/salammassonryWP1/wp-includes/blocks/navigation/view.min.js
+[2024-04-17 12:50:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 22
+[2024-04-17 12:50:17] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/661fc5898560d-9dnlT9.tmp
+[2024-04-17 12:50:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/salammassonryWP1/wp-includes/blocks/navigation/view.min.js?simply_static_page=18
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/salammassonryWP1/wp-includes/blocks/navigation/view.min.js?simply_static_page=18
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/view.min.js
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/661fc5898560d-9dnlT9.tmp to C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188/wp-includes/blocks/navigation/view.min.js
+[2024-04-17 12:50:17] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-17 12:50:17] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-17 12:50:17] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-17 12:50:17] [class-ss-fetch-urls-task.php:58] URL: http://localhost/salammassonryWP1/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-04-17 12:50:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 22
+[2024-04-17 12:50:17] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/661fc58997f36-GfgeVt.tmp
+[2024-04-17 12:50:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/salammassonryWP1/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=19
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/salammassonryWP1/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=19
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:103] Filesize: 326628 bytes
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/661fc58997f36-GfgeVt.tmp to C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-04-17 12:50:17] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-17 12:50:17] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-17 12:50:17] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-17 12:50:17] [class-ss-fetch-urls-task.php:58] URL: http://localhost/salammassonryWP1/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-04-17 12:50:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 22
+[2024-04-17 12:50:17] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/661fc589b3dac-cOwEga.tmp
+[2024-04-17 12:50:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/salammassonryWP1/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=20
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/salammassonryWP1/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=20
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:103] Filesize: 146060 bytes
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/661fc589b3dac-cOwEga.tmp to C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-04-17 12:50:17] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-17 12:50:17] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-17 12:50:17] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-17 12:50:17] [class-ss-fetch-urls-task.php:58] URL: http://localhost/salammassonryWP1/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-04-17 12:50:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 22
+[2024-04-17 12:50:17] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/661fc589c40b6-WoN5ty.tmp
+[2024-04-17 12:50:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/salammassonryWP1/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=21
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/salammassonryWP1/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=21
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:103] Filesize: 105184 bytes
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/661fc589c40b6-WoN5ty.tmp to C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-04-17 12:50:17] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-17 12:50:17] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-17 12:50:17] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-17 12:50:17] [class-ss-fetch-urls-task.php:58] URL: http://localhost/salammassonryWP1/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-04-17 12:50:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 22
+[2024-04-17 12:50:17] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/661fc589d76bc-IhBu0t.tmp
+[2024-04-17 12:50:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/salammassonryWP1/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=22
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/salammassonryWP1/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=22
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:103] Filesize: 132564 bytes
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-04-17 12:50:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/661fc589d76bc-IhBu0t.tmp to C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-04-17 12:50:17] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-17 12:50:17] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-17 12:50:17] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-17 12:50:17] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 2 of 22 pages/files
+[2024-04-17 12:50:17] [class-ss-archive-creation-job.php:177] We're not done with the fetch_urls task yet
+[2024-04-17 12:50:19] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-04-17 12:50:19] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-04-17 12:50:19] [class-ss-fetch-urls-task.php:55] Total pages: 32; Pages remaining: 10
+[2024-04-17 12:50:19] [class-ss-fetch-urls-task.php:58] URL: http://localhost/salammassonryWP1/wp-admin/
+[2024-04-17 12:50:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 32
+[2024-04-17 12:50:19] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-17 12:50:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/661fc58b52945-fsXToo.tmp
+[2024-04-17 12:50:19] [class-ss-page-handler.php:38] URL Prepared:http://localhost/salammassonryWP1/wp-admin/?simply_static_page=23
+[2024-04-17 12:50:19] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/salammassonryWP1/wp-admin/?simply_static_page=23
+[2024-04-17 12:50:20] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-04-17 12:50:20] [class-ss-url-fetcher.php:119] http_status_code: 302 | content_type: text/html; charset=UTF-8
+[2024-04-17 12:50:20] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-17 12:50:20] [class-ss-fetch-urls-task.php:190] redirect_url: http://localhost/salammassonryWP1/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2FsalammassonryWP1%2Fwp-admin%2F%3Fsimply_static_page%3D23&reauth=1
+[2024-04-17 12:50:20] [class-ss-fetch-urls-task.php:217] Redirect URL is on the same domain; adding the URL to the queue
+[2024-04-17 12:50:20] [class-ss-fetch-urls-task.php:229] Creating a redirect page
+[2024-04-17 12:50:20] [class-ss-url-fetcher.php:233] New filename for static page: /wp-admin/index.html
+[2024-04-17 12:50:20] [class-ss-fetch-urls-task.php:58] URL: http://localhost/salammassonryWP1/index.php/sample-page/feed/
+[2024-04-17 12:50:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 32
+[2024-04-17 12:50:20] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-17 12:50:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/661fc58c8db53-GNLGZr.tmp
+[2024-04-17 12:50:20] [class-ss-page-handler.php:38] URL Prepared:http://localhost/salammassonryWP1/index.php/sample-page/feed/?simply_static_page=24
+[2024-04-17 12:50:20] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/salammassonryWP1/index.php/sample-page/feed/?simply_static_page=24
+[2024-04-17 12:50:21] [class-ss-url-fetcher.php:103] Filesize: 769 bytes
+[2024-04-17 12:50:21] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-04-17 12:50:21] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/sample-page/feed/index.xml
+[2024-04-17 12:50:21] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/661fc58c8db53-GNLGZr.tmp to C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188/index.php/sample-page/feed/index.xml
+[2024-04-17 12:50:21] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-17 12:50:21] [class-ss-fetch-urls-task.php:144] Adding 2 URLs to the queue
+[2024-04-17 12:50:21] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-17 12:50:21] [class-ss-fetch-urls-task.php:58] URL: http://localhost/salammassonryWP1/index.php/wp-json/wp/v2/pages/2
+[2024-04-17 12:50:21] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 32
+[2024-04-17 12:50:21] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-17 12:50:21] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/661fc58d836a8-vlXUsS.tmp
+[2024-04-17 12:50:21] [class-ss-page-handler.php:38] URL Prepared:http://localhost/salammassonryWP1/index.php/wp-json/wp/v2/pages/2?simply_static_page=25
+[2024-04-17 12:50:21] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/salammassonryWP1/index.php/wp-json/wp/v2/pages/2?simply_static_page=25
+[2024-04-17 12:50:22] [class-ss-url-fetcher.php:103] Filesize: 3000 bytes
+[2024-04-17 12:50:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-04-17 12:50:22] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/wp-json/wp/v2/pages/2\index.html
+[2024-04-17 12:50:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/661fc58d836a8-vlXUsS.tmp to C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188/index.php/wp-json/wp/v2/pages/2\index.html
+[2024-04-17 12:50:22] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-17 12:50:22] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-17 12:50:22] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-17 12:50:22] [class-ss-fetch-urls-task.php:58] URL: http://localhost/salammassonryWP1/index.php/wp-json/oembed/1.0/embed
+[2024-04-17 12:50:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 32
+[2024-04-17 12:50:22] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-17 12:50:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/661fc58ee189f-4Me8Xf.tmp
+[2024-04-17 12:50:22] [class-ss-page-handler.php:38] URL Prepared:http://localhost/salammassonryWP1/index.php/wp-json/oembed/1.0/embed?simply_static_page=26
+[2024-04-17 12:50:22] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/salammassonryWP1/index.php/wp-json/oembed/1.0/embed?simply_static_page=26
+[2024-04-17 12:50:24] [class-ss-url-fetcher.php:103] Filesize: 115 bytes
+[2024-04-17 12:50:24] [class-ss-url-fetcher.php:119] http_status_code: 400 | content_type: application/json; charset=UTF-8
+[2024-04-17 12:50:24] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-17 12:50:24] [class-ss-fetch-urls-task.php:58] URL: http://localhost/salammassonryWP1/index.php/2024/04/17/hello-world/feed/
+[2024-04-17 12:50:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 32
+[2024-04-17 12:50:24] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-17 12:50:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/661fc5901f667-j89fSj.tmp
+[2024-04-17 12:50:24] [class-ss-page-handler.php:38] URL Prepared:http://localhost/salammassonryWP1/index.php/2024/04/17/hello-world/feed/?simply_static_page=27
+[2024-04-17 12:50:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/salammassonryWP1/index.php/2024/04/17/hello-world/feed/?simply_static_page=27
+[2024-04-17 12:50:25] [class-ss-url-fetcher.php:103] Filesize: 1745 bytes
+[2024-04-17 12:50:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-04-17 12:50:25] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/2024/04/17/hello-world/feed/index.xml
+[2024-04-17 12:50:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/661fc5901f667-j89fSj.tmp to C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188/index.php/2024/04/17/hello-world/feed/index.xml
+[2024-04-17 12:50:25] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-17 12:50:25] [class-ss-fetch-urls-task.php:144] Adding 3 URLs to the queue
+[2024-04-17 12:50:25] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-17 12:50:25] [class-ss-fetch-urls-task.php:58] URL: http://localhost/salammassonryWP1/wp-includes/css/dist/block-library/common.min.css
+[2024-04-17 12:50:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 32
+[2024-04-17 12:50:25] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-17 12:50:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/661fc5914ca31-ChMz5u.tmp
+[2024-04-17 12:50:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/salammassonryWP1/wp-includes/css/dist/block-library/common.min.css?simply_static_page=28
+[2024-04-17 12:50:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/salammassonryWP1/wp-includes/css/dist/block-library/common.min.css?simply_static_page=28
+[2024-04-17 12:50:25] [class-ss-url-fetcher.php:103] Filesize: 3503 bytes
+[2024-04-17 12:50:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-04-17 12:50:25] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/common.min.css
+[2024-04-17 12:50:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/661fc5914ca31-ChMz5u.tmp to C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188/wp-includes/css/dist/block-library/common.min.css
+[2024-04-17 12:50:25] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-17 12:50:25] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-17 12:50:25] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-17 12:50:25] [class-ss-fetch-urls-task.php:58] URL: http://localhost/salammassonryWP1/index.php/wp-json/wp/v2/posts/1
+[2024-04-17 12:50:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 32
+[2024-04-17 12:50:25] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-17 12:50:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/661fc5915bb2d-Ym9uDL.tmp
+[2024-04-17 12:50:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/salammassonryWP1/index.php/wp-json/wp/v2/posts/1?simply_static_page=29
+[2024-04-17 12:50:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/salammassonryWP1/index.php/wp-json/wp/v2/posts/1?simply_static_page=29
+[2024-04-17 12:50:26] [class-ss-url-fetcher.php:103] Filesize: 1968 bytes
+[2024-04-17 12:50:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-04-17 12:50:26] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/wp-json/wp/v2/posts/1\index.html
+[2024-04-17 12:50:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/661fc5915bb2d-Ym9uDL.tmp to C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188/index.php/wp-json/wp/v2/posts/1\index.html
+[2024-04-17 12:50:26] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-17 12:50:26] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-17 12:50:26] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-17 12:50:26] [class-ss-fetch-urls-task.php:58] URL: http://localhost/salammassonryWP1/wp-includes/js/comment-reply.min.js
+[2024-04-17 12:50:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 32
+[2024-04-17 12:50:26] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-17 12:50:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/661fc59270a25-IheQD0.tmp
+[2024-04-17 12:50:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/salammassonryWP1/wp-includes/js/comment-reply.min.js?simply_static_page=30
+[2024-04-17 12:50:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/salammassonryWP1/wp-includes/js/comment-reply.min.js?simply_static_page=30
+[2024-04-17 12:50:26] [class-ss-url-fetcher.php:103] Filesize: 2981 bytes
+[2024-04-17 12:50:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-04-17 12:50:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2024-04-17 12:50:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/661fc59270a25-IheQD0.tmp to C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188/wp-includes/js/comment-reply.min.js
+[2024-04-17 12:50:26] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-17 12:50:26] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-17 12:50:26] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-17 12:50:26] [class-ss-fetch-urls-task.php:58] URL: http://localhost/salammassonryWP1/index.php/author/salammassonrywp1/feed/
+[2024-04-17 12:50:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 32
+[2024-04-17 12:50:26] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-17 12:50:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/661fc5928d85b-i3dSQs.tmp
+[2024-04-17 12:50:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/salammassonryWP1/index.php/author/salammassonrywp1/feed/?simply_static_page=31
+[2024-04-17 12:50:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/salammassonryWP1/index.php/author/salammassonrywp1/feed/?simply_static_page=31
+[2024-04-17 12:50:27] [class-ss-url-fetcher.php:103] Filesize: 1833 bytes
+[2024-04-17 12:50:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-04-17 12:50:27] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/author/salammassonrywp1/feed/index.xml
+[2024-04-17 12:50:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/661fc5928d85b-i3dSQs.tmp to C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188/index.php/author/salammassonrywp1/feed/index.xml
+[2024-04-17 12:50:27] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-17 12:50:28] [class-ss-fetch-urls-task.php:144] Adding 5 URLs to the queue
+[2024-04-17 12:50:28] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-17 12:50:29] [class-ss-fetch-urls-task.php:58] URL: http://localhost/salammassonryWP1/index.php/wp-json/wp/v2/users/1
+[2024-04-17 12:50:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 32
+[2024-04-17 12:50:29] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-17 12:50:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\HP\AppData\Local\Temp/661fc595af165-uozSLb.tmp
+[2024-04-17 12:50:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/salammassonryWP1/index.php/wp-json/wp/v2/users/1?simply_static_page=32
+[2024-04-17 12:50:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/salammassonryWP1/index.php/wp-json/wp/v2/users/1?simply_static_page=32
+[2024-04-17 12:50:31] [class-ss-url-fetcher.php:103] Filesize: 698 bytes
+[2024-04-17 12:50:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-04-17 12:50:31] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/wp-json/wp/v2/users/1\index.html
+[2024-04-17 12:50:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\HP\AppData\Local\Temp/661fc595af165-uozSLb.tmp to C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188/index.php/wp-json/wp/v2/users/1\index.html
+[2024-04-17 12:50:31] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-17 12:50:31] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-17 12:50:31] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-17 12:50:31] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 22 of 32 pages/files
+[2024-04-17 12:50:31] [class-ss-archive-creation-job.php:177] We're not done with the fetch_urls task yet
+[2024-04-17 12:50:31] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-04-17 12:50:31] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-04-17 12:50:31] [class-ss-fetch-urls-task.php:55] Total pages: 33; Pages remaining: 1
+[2024-04-17 12:50:31] [class-ss-fetch-urls-task.php:58] URL: http://localhost/salammassonryWP1/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2FsalammassonryWP1%2Fwp-admin%2F%3Fsimply_static_page%3D23&reauth=1
+[2024-04-17 12:50:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 33
+[2024-04-17 12:50:31] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://localhost/salammassonryWP1/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2FsalammassonryWP1%2Fwp-admin%2F%3Fsimply_static_page%3D23&reauth=1
+[2024-04-17 12:50:31] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-17 12:50:31] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 32 of 33 pages/files
+[2024-04-17 12:50:31] [class-ss-archive-creation-job.php:177] We're not done with the fetch_urls task yet
+[2024-04-17 12:50:31] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-04-17 12:50:31] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-04-17 12:50:31] [class-ss-fetch-urls-task.php:55] Total pages: 33; Pages remaining: 0
+[2024-04-17 12:50:31] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 33 of 33 pages/files
+[2024-04-17 12:50:31] [class-ss-archive-creation-job.php:171] We've found our next task: transfer_files_locally
+[2024-04-17 12:50:31] [class-ss-archive-creation-job.php:132] Current task: transfer_files_locally
+[2024-04-17 12:50:31] [class-ss-archive-creation-job.php:149] Performing task: transfer_files_locally
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:77] Total pages: 27; Pages remaining: 27
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188\404\index.html
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:85] Cannot create directory: C:/xampp/htdocs/salammassonryWP1/index.php/sample-page
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188\404\index.html
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:85] Cannot create directory: C:/xampp/htdocs/salammassonryWP1/index.php/2024/04/17/hello-world
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188\404\index.html
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:85] Cannot create directory: C:/xampp/htdocs/salammassonryWP1/index.php/author/salammassonrywp1
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188\404\index.html
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188\404\index.html
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188\404\index.html
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188\404\index.html
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:85] Cannot create directory: C:/xampp/htdocs/salammassonryWP1/index.php/feed
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188\404\index.html
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:85] Cannot create directory: C:/xampp/htdocs/salammassonryWP1/index.php/comments/feed
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188\404\index.html
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188\404\index.html
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188\404\index.html
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:85] Cannot create directory: C:/xampp/htdocs/salammassonryWP1/index.php/wp-json
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188\404\index.html
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188\404\index.html
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188\404\index.html
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188\404\index.html
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188\404\index.html
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188\404\index.html
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188\404\index.html
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188\404\index.html
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:85] Cannot create directory: C:/xampp/htdocs/salammassonryWP1/index.php/sample-page/feed
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-17 12:50:31] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188\404\index.html
+[2024-04-17 12:50:32] [class-ss-transfer-files-locally-task.php:85] Cannot create directory: C:/xampp/htdocs/salammassonryWP1/index.php/wp-json/wp/v2/pages
+[2024-04-17 12:50:32] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-17 12:50:32] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188\404\index.html
+[2024-04-17 12:50:32] [class-ss-transfer-files-locally-task.php:85] Cannot create directory: C:/xampp/htdocs/salammassonryWP1/index.php/2024/04/17/hello-world/feed
+[2024-04-17 12:50:32] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-17 12:50:32] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188\404\index.html
+[2024-04-17 12:50:32] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-17 12:50:32] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188\404\index.html
+[2024-04-17 12:50:32] [class-ss-transfer-files-locally-task.php:85] Cannot create directory: C:/xampp/htdocs/salammassonryWP1/index.php/wp-json/wp/v2/posts
+[2024-04-17 12:50:32] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-17 12:50:32] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188\404\index.html
+[2024-04-17 12:50:32] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-17 12:50:32] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188\404\index.html
+[2024-04-17 12:50:32] [class-ss-transfer-files-locally-task.php:85] Cannot create directory: C:/xampp/htdocs/salammassonryWP1/index.php/author/salammassonrywp1/feed
+[2024-04-17 12:50:32] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-17 12:50:32] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188\404\index.html
+[2024-04-17 12:50:32] [class-ss-transfer-files-locally-task.php:85] Cannot create directory: C:/xampp/htdocs/salammassonryWP1/index.php/wp-json/wp/v2/users
+[2024-04-17 12:50:32] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-17 12:50:32] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\salammassonryWP1/wp-content/uploads\simply-static\temp-files/simply-static-1-1713358188\404\index.html
+[2024-04-17 12:50:32] [class-ss-archive-creation-job.php:177] We're not done with the transfer_files_locally task yet
+[2024-04-17 12:50:32] [class-ss-archive-creation-job.php:132] Current task: transfer_files_locally
+[2024-04-17 12:50:32] [class-ss-archive-creation-job.php:149] Performing task: transfer_files_locally
+[2024-04-17 12:50:32] [class-ss-transfer-files-locally-task.php:77] Total pages: 27; Pages remaining: 0
+[2024-04-17 12:50:32] [class-ss-task.php:44] Status message: [transfer_files_locally] Copied 27 of 27 files
+[2024-04-17 12:50:32] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://salammassonryWP1/" target="_blank">https://salammassonryWP1/</a>
+[2024-04-17 12:50:32] [class-ss-archive-creation-job.php:171] We've found our next task: wrapup
+[2024-04-17 12:50:32] [class-ss-archive-creation-job.php:132] Current task: wrapup
+[2024-04-17 12:50:32] [class-ss-archive-creation-job.php:149] Performing task: wrapup
+[2024-04-17 12:50:32] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-04-17 12:50:32] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-04-17 12:50:32] [class-ss-archive-creation-job.php:166] This task is done and there are no more tasks, time to complete the job
+[2024-04-17 12:50:32] [class-ss-archive-creation-job.php:193] Completing the job
+[2024-04-17 12:50:32] [class-ss-archive-creation-job.php:320] Status message: [done] Done! Finished in 00:00:44
